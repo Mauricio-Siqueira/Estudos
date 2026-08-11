@@ -24,13 +24,47 @@ e retorna para
 """
 
 
-teste = True
+# teste = True
 
-while teste:
-    nome01 = input("Digite um nome: ").strip().capitalize()
-    print(f"Seu nome é {nome01}")
+# while teste:
+#     nome01 = input("Digite um nome: ").strip().capitalize()
+#     print(f"Seu nome é {nome01}")
 
-    if nome01 == "Sair":
+#     if nome01 == "Sair":
+#         break
+
+# print("Você digitou sair, assim, saindo do repetição")
+
+# print(">>>>>>>>>>>")
+
+# contador = 0
+
+# while contador < 10:
+#     contador = contador + 1
+#     print(contador)
+
+# print("acabou")
+
+print(">>>>>>>>>>")
+
+# Utilizando o continue
+
+contador = 0
+
+while contador <= 100:
+    contador += 1
+
+    if contador == 7:
+        print("numero 7 não será mostrado")
+        continue
+
+    if contador >= 10 and contador <= 27:
+        print("Não mostrar os números", contador)
+        continue
+
+    print(contador)
+    
+    if contador == 40:
         break
 
-print("Você digitou sair, assim, saindo do repetição")
+print("acabou")
