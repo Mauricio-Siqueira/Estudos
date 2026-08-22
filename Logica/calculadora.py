@@ -28,7 +28,7 @@ while True:
         print("Digite apenas um operador")
         continue
 
-    print("Realizado sua conta. Consfira o resultado")
+    print("Realizado sua conta. Confira o resultado")
 
     if operador == "+":
         print(num_1_float + num_2_float)
