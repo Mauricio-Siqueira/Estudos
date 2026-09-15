@@ -1,0 +1,19 @@
+﻿# Configurações de IDEs
+.vscode/
+.idea/
+
+# Bytecode e Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# Logs e arquivos temporários do sistema
+*.log
+Thumbs.db
+Desktop.ini
