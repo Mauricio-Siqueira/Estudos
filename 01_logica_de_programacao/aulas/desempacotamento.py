@@ -11,7 +11,7 @@ print(lista2, resto)
 
 nova_lista = ['Lucas', 'Marcella', 'João']
 # nova_lista = list(nova_lista) # Convertendo tupla para lista
-nova_lista = tuple(nova_lista) # Convertendo lista para tupla
+nova_lista = tuple(nova_lista) # Convertendo lista para tupla / Não faz sentido converter desta foram, pois seria somente criar uma lista um tupla
 print(nova_lista[-1]) # Selecionando o ultimo nome da lista
 print(nova_lista)
 
