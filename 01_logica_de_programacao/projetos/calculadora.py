@@ -37,7 +37,7 @@ while True:
         print(num_1_float - num_2_float)
 
     elif operador == "/":
-       print(num_1_float / num_2_float)
+        print(num_1_float / num_2_float)
 
     elif operador == "*":
        print(num_1_float * num_2_float)
