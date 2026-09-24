@@ -1,4 +1,4 @@
-﻿# 📚 Estudos de Python - Udemy
+# 📚 Estudos de Python - Udemy
 
 Repositório dedicado ao acompanhamento de aulas, anotações e resolução de exercícios do curso de Python na Udemy.
 
@@ -55,3 +55,11 @@ udemy/
 * **Linguagem**: Python 3
 * **Controle de Versão**: Git & GitHub
 * **Editor**: Visual Studio Code
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Mauricio Rego Siqueira**  
+- LinkedIn: [linkedin.com/in/mauricio-siqueira-dev](https://www.linkedin.com/in/mauricio-siqueira-dev)  
+- GitHub: [github.com/Mauricio-Siqueira](https://github.com/Mauricio-Siqueira)
