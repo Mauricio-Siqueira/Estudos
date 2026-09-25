@@ -45,7 +45,7 @@ lista.append(60)
 lista.append(70)
 ultimo_valor = lista.pop(2)
 print(lista, "Removido,", ultimo_valor)
-
+print("<<<<<<<<>>>>>>>>")
 #
 
 # lista_a = [1, 2, 3]
@@ -53,3 +53,24 @@ print(lista, "Removido,", ultimo_valor)
 # lista_c = lista_a + lista_b
 # lista_a.extend(lista_b)
 # print(lista_a)
+
+
+"""
+Lista de listas e seus indices
+"""
+
+listas = [
+
+    #0          1
+    ["Helena", "Nathalia"],#0
+    #0
+    ["Julia", ],#1
+    #0          1
+    ["Nicole", "Giovana", (0, 10, 20, 30, 40)],#2
+]
+
+print(listas[0][0])
+print(listas[0][1])
+print(listas[1][0])
+print(listas[2][1])
+print(listas[2][2][3])
