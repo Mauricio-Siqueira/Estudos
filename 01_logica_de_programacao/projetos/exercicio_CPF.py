@@ -24,10 +24,11 @@ contrário disso:
 O primeiro dígito do CPF é 7
 """
 
-cpf = input('Digite o CPF: ')
+cpf = input('Digite o CPF: ').replace('.','').replace('-','')
 nove_digitos = cpf[0:9]
 contador_regressivo = 10
 resultado_soma = 0
+
 
 for digito in nove_digitos:
     resultado_soma += int(digito) * contador_regressivo
