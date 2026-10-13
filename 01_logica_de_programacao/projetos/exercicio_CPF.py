@@ -23,9 +23,12 @@ contrário disso:
 
 O primeiro dígito do CPF é 7
 """
+import re
 
 cpf = input('Digite o CPF: ').replace('.','').replace('-','')
-nove_digitos = cpf[0:9]
+cpf_enviado_usuario = re.sub(r'[^0-9]', '', cpf)
+
+nove_digitos = cpf_enviado_usuario[0:9]
 contador_regressivo = 10
 resultado_soma = 0
 
@@ -56,6 +59,6 @@ print(f'O Segundo dígito é: {digito_2}')
 cpf_gerado = f'{nove_digitos}{digito_1}{digito_2}'
 
 if cpf == cpf_gerado:
-    print(f'CPF {cpf} é Válido!')
+    print(f'CPF {cpf_enviado_usuario} é Válido!')
 else:
-    print('CPF inválido')
+    print(f'CPF {cpf_enviado_usuario} inválido')
