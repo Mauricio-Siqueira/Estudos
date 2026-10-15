@@ -6,13 +6,13 @@ e retornar um valro especifico
 Por padrão, funções retornam None em Python (nada).
 """
 
-# def saudacao(nome="Sem nome"):
-#     print(f'Ola {nome}!')
+def saudacao(nome="Sem nome"):
+    print(f'Ola {nome}!')
 
-# saudacao("Mauricio")
-# saudacao("João")
-# saudacao("Marcos")
-# saudacao()
+saudacao("Mauricio")
+saudacao ("João")
+saudacao("Marcos")
+saudacao()
 
 # def numero():
 #     print("Variavel1")
@@ -22,7 +22,7 @@ Por padrão, funções retornam None em Python (nada).
 
 # numero()
 
-def imprimir(a, b, c):
-    print(a, b, c)
+# def imprimir(a, b, c):
+#     print(a, b, c)
     
-imprimir(1, 2, 3)
+# imprimir(1, 2, 3)
