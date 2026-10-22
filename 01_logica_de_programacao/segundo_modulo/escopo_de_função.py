@@ -20,6 +20,17 @@ minha_funcao()
 
 print('Fora da função.')
 print(x)
-print(y) #Erro (NomeErro: name 'y' is not defined)
+print() #Erro (NomeErro: name 'y' is not defined)
 
 #Assim que a função termina de rodar, tudo o que foi criado dentro dela deixa de existir na memória
+
+#Caso esteja com o mesmo nome
+
+x = 1
+
+def funcao():
+    x = 2
+    print('Dentro:', x)
+
+funcao()
+print('Fora: ',x)
