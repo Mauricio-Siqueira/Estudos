@@ -30,7 +30,15 @@ x = 1
 
 def funcao():
     x = 2
-    print('Dentro:', x)
+
+    def outra_funcao():
+        x = 11 
+        y = 2
+        print('Dentro:', x, y)
+
+    outra_funcao()
+
+    print(x)
 
 funcao()
 print('Fora: ',x)

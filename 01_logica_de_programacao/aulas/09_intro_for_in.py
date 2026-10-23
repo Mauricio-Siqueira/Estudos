@@ -1,20 +1,20 @@
-"""
-senha_salve = "1234"
-senha_digitada = " "
-repeticoes = 0
 
-while senha_salve != senha_digitada:
-    senha_digitada = input(f'Sua senha ({repeticoes}): ')
+# senha_salve = "1234"
+# senha_digitada = " "
+# repeticoes = 0
 
-    repeticoes += 1
+# while senha_salve != senha_digitada:
+#     senha_digitada = input(f'Sua senha ({repeticoes}): ')
 
-print(repeticoes)
-"""
+#     repeticoes += 1
+
+# print(repeticoes)
+
 
 # For = Para, in = em
 # Em codígo: Para cada (letra) em (texto)
 
-'''
+
 texto = "Python"
 
 novo_texto = " "
@@ -22,7 +22,7 @@ for letra in texto:
     novo_texto += f"*{letra}"
     print(letra)
 print(novo_texto + "*" )
-'''
+
 
 # for + range
 # range -> range (Start, stop, step)
@@ -89,7 +89,7 @@ else:
 for in com lista
 """
 
-lista = ['Maria', 'Helena', 'Luiz']
+# lista = ['Maria', 'Helena', 'Luiz']
 
-for nome in lista:
-    print(nome, type(nome))
+# for nome in lista:
+#     print(nome, type(nome))
