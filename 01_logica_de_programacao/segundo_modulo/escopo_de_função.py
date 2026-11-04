@@ -41,4 +41,27 @@ def funcao():
     print(x)
 
 funcao()
-print('Fora: ',x)
+print('Fora:',x)
+
+# treinamento
+
+print('_______________________')
+
+def saudacao(nome):
+    print(f"Prazer, {nome}")
+
+saudacao("Mauricio")
+
+def soma(n1, n2):
+    resultado = n1 + n2
+    print(f"A soma entre {n1} e {n2} é {resultado}")
+
+soma(20, 30)
+
+def numero_soma(n3, n4):
+    novo_resultado = n3 + n4
+    return novo_resultado
+
+resultado_da_soma = numero_soma (7, 4)
+resultado_da_soma_nova = numero_soma (8, 9)
+print(f"Fizamos duas somas. A primeira soma o resutado é {resultado_da_soma}, ea segundo soma o resultado é {resultado_da_soma_nova}")
