@@ -1,4 +1,4 @@
-# 📚 Estudos de Python - Udemy
+# 📚 Estudos de Python - Estudos
 
 Repositório dedicado ao acompanhamento de aulas, anotações e resolução de exercícios do curso de Python na Udemy.
 
